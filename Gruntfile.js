@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             A: {
-                files: ['src/css/*.css','src/*.css'],
+                files: ['src/*/*.css','src/*.css'],
                 tasks: ['default']
             }
         },
